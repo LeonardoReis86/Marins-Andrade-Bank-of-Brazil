@@ -23,10 +23,11 @@ Construir uma RESTful API que permita:
 Tarefas Executadas
 
 - [x] Criado arquivo package.json
+- [x] Gerenciador de pacotes npm
 - [x] Instalado nodemon
 - [x] Criado atalho nodemon
 - [x] Instalado framework Express
-- [x] Criado .gitignore
+- [x] Criado arquivo .gitignore
 - [x] Importar express
 - [x] Instanciar express
-- [x] listar servidor e porta
+- [x] listar servidor e porta de trabalho

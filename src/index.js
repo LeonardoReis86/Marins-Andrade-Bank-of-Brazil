@@ -1,4 +1,7 @@
 const express = require("express");
+const usersRouter = require("./router/users");
+
+app.use("users", userRouter);
 
 const app = express();
 
