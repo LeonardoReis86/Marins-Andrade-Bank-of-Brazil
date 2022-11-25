@@ -1,9 +1,8 @@
 const express = require("express");
+const account = require('./account);
 
 const routes = express();
 
-routes.get("/contas", (req, res) => {
-  res.json("servidor ok");
-});
+routes.get("/account", account.listarcontas);
 
 module.exports = routes;
